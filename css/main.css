@@ -334,17 +334,68 @@ color: #f89500;
 }
 @media  screen and (max-width: 768px ) {
     /* tablet veiwport: tablet */
-
-}
-@media screen and  (max-width: 360px )  {
-    /* mobile veiwport: mobile */
     header{
       height: 100px;
     }
     .header_logo{
       width: 80px;
+    }
+    .HeroSection{
+    height:432px;
+
+    }
+      .Dates{
+        width:100%;
+        margin:0;
+      }
+      .dates ul li{
+        font-size: 15px;
+      }
+      .concert_dates{
+      width: 95%;
+      display:flex;
+      justify-content: center;
+      align-content: center;
+      margin: 0 auto;
+      padding: 10px;
+      color: #fff;
+    }
 
 }
+@media screen and  (max-width: 360px )  {
+    /* mobile veiwport: mobile */
+    .HeroSection{
+    height:202px;
+    }
+
+    header{
+      height: 100px;
+    }
+
+    .Lineup h1{
+      font-size: 50px;
+
+    }
+    .Lineup p{
+      font-size:14px;
+
+    }
+    .Lineup h2{
+      font-size: 30px;
+
+    }
+    .concert_dates{
+    flex-direction: column;
+  }
+  .Dates{
+    padding: 0;
+    
+  }
+  .Dates ul li {
+
+  }
+}
+
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
